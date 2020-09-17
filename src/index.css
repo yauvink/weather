@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a {
+background-color: red;
+color: white;
+padding: 0.7em 1em;
+text-decoration: none;
+/* text-transform: uppercase; */
+border-radius: 5px;
+}
+
+a:hover {
+background-color: #555;
+}
+
+a:active {
+background-color: black;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+.controlsWrapper{
+  display: flex;
+  padding: 40px;
+}
+.selectWrapper{
+  width:300px;
+}
+.radioButtonsWrapper{
+  font-size: 1.2em;
+  margin-left: 30px;
+}
+.radioButtonsWrapper label{
+  cursor: pointer;
+}
+.currentWeatherWrapper{
+  margin-left:40px;
+}
+.recharts-legend-wrapper{
+  left:80px!important;
+}
+.chartWrapper{
+  margin:20px 0px;
+}
